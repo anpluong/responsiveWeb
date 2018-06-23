@@ -1,16 +1,38 @@
 body {
     padding-top: 30px;
-}
-
-.container {
+    font-family: helvetica, sans-serif;
+    text-align: center;
     background-color: lightgray;
 }
+
+/* This is the header */
 header{
-    text-align: center;
     padding-top: 5px;
+    margin: 30px auto;
 }
 
+/* This is the image article*/
 .img-main {
     background: white;
+    margin: 10px;
 }
 
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+/* This is the text article */
+
+
+ul {
+    /* Set the width of ul so it will wrap when the item is 600px */
+    max-width: 600px;
+    text-align: left;
+    /* The auto will center the element within its container horizontally. */
+    margin: 0 auto; 
+}
+
+li{
+    margin: 10px;
+  }
