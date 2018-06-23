@@ -1,0 +1,16 @@
+body {
+    padding-top: 30px;
+}
+
+.container {
+    background-color: lightgray;
+}
+header{
+    text-align: center;
+    padding-top: 5px;
+}
+
+.img-main {
+    background: white;
+}
+
