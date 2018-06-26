@@ -29,19 +29,19 @@
                 <div class='labels'><label>Which option best describes your current role?</label></div>
                 <div class='right'>
                     <select id='dropdown'>                    
-                        <option value='0' disabled>Select an option</option>
-                        <option value='1'>Student</option>
-                        <option value='2'>Full Time Job</option>
-                        <option value='3'>Full Time Learner</option>
-                        <option value='4'>Prefer not to say</option>
-                        <option value='5'>Other</option>
+                        <option disabled>Select an option</option>
+                        <option value='student'>Student</option>
+                        <option value='job'>Full Time Job</option>
+                        <option value='learner'>Full Time Learner</option>
+                        <option value='nottosay'>Prefer not to say</option>
+                        <option value='other'>Other</option>
                     </select>
                 </div>
             </div>
             <div class='row'>                
                 <div class='labels'>How likely is that you would recommend the service to a friend</div>    
                 <div class='right'>
-                    <ul style='list-style: none;'>
+                    <ul style='list-style: none'>
                         <li class='radio'>
                             <input type="radio" name="recommend" value="Definitely" id='definitely' class='user-rating'>
                             <label for="definitely">Definitely</label>                
@@ -58,6 +58,61 @@
                         </li>
                     </ul>
                </div>
+            </div>
+            <div class='row'>    
+                <div class='labels'><label>Which option best describes your current role?</label></div>
+                <div class='right'>
+                    <select id='dropdown'>                    
+                        <option disabled>Select an option</option>
+                        <option value='challenges'>Challenges</option>
+                        <option value='projects'>Projects</option>
+                        <option value='community'>Community</option>
+                        <option value='opensource'>Open Source</option>
+                    </select>
+                </div>
+            </div>
+            <div class='row'>
+                <div class='labels'><label>Things that should be improved in the future (Check all that apply):</label></div>
+                <div class='right'>
+                    <ul style='list-style: none'>
+                        <li class='checkbox'>
+                            <input type='checkbox' name='stuff' class='checkbox-stuff' id='frontendproject'>
+                            <label for='frontendproject'>Front-end Projects</label>
+                        </li>
+                        <li class='checkbox'>
+                            <input type='checkbox' name='stuff' class='checkbox-stuff' id='backendproject'>
+                            <label for='backendproject'>Back-end Projects</label>
+                        </li>
+                        <li class='checkbox'>
+                            <input type='checkbox' name='stuff' class='checkbox-stuff' id='datavisual'>
+                            <label for='datavisual'>Data Visualization</label>
+                        </li>
+                        <li class='checkbox'>
+                            <input type='checkbox' name='stuff' class='checkbox-stuff' id='challengProject'>
+                            <label for='challengProject'>Challenges</label>
+                        </li>
+                        <li class='checkbox'>
+                            <input type='checkbox' name='stuff' class='checkbox-stuff' id='opensource'>
+                            <label for='opensource'>Open Source Community</label>
+                        </li>
+                        <li class='checkbox'>
+                            <input type='checkbox' name='stuff' class='checkbox-stuff' id='video'>
+                            <label for='video'>Videos</label>
+                        </li>
+                        <li class='checkbox'>
+                            <input type='checkbox' name='stuff' class='checkbox-stuff' id='citymeetup'>
+                            <label for='citymeetup'>City Meetups</label>
+                        </li>
+                        <li class='checkbox'>
+                            <input type='checkbox' name='stuff' class='checkbox-stuff' id='wiki'>
+                            <label for='wiki'>Wiki</label>
+                        </li>
+                        <li class='checkbox'>
+                            <input type='checkbox' name='stuff' class='checkbox-stuff' id='additional'>
+                            <label for='additional'>Additional Courses</label>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </form>
     </div>

@@ -1,13 +1,15 @@
 body {
     text-align: center;
     background-color: rgb(227, 242, 246);
-    font-family: helvetica, sans-serif;
+    font-family: helvetica, sans-serif;    
 }
 
 /* The main container */
 .main {
     max-width: 1000px;
-    margin: 0 auto;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
 }
 
 
@@ -37,10 +39,11 @@ body {
 }
 
 /** This is the style for each radio. We use relative position and set left -43 to move it to the left away from its normal position*/
-.radio {
+.radio, .checkbox {
     position: relative;
     left: -43px;
 }
+
 
 /* Set the dropdown menu size */
 #dropdown {
@@ -49,3 +52,10 @@ body {
     margin: 10px;
 }
 
+li>label {
+    padding-left: 10px;
+}
+
+li[class="checkbox"] {
+    padding: 5px;
+}
