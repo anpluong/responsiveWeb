@@ -4,32 +4,48 @@ body {
     font-family: helvetica, sans-serif;
 }
 
+/* The main container */
 .main {
     max-width: 1000px;
     margin: 0 auto;
 }
 
 
+/** The label on the left container */
 .labels {
     display: inline-block;
-    text-align: right;
-    width: 40%;
-  }
-  
-  .right {
+    text-align: right;    
+    width: 30%;
+    padding: 10px;
+    vertical-align: top;
+}
+
+/** The right container includes input, checkbox, radios */
+.right {
     display: inline-block;
     text-align: left;
-    width: 50%;
-  }
+    width: 40%;
+}
 
-  #aa {
-      width: 40%;
-      display: inline-block;
-      border: 1px solid red;
-  }
 
-  #bb {
-    width: 50%;
-    display: inline-block;
-    border: 1px solid yellow;
- }
+/* This is style for input field */
+.inputfield {
+    height: 20px;
+    width: 250px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+/** This is the style for each radio. We use relative position and set left -43 to move it to the left away from its normal position*/
+.radio {
+    position: relative;
+    left: -43px;
+}
+
+/* Set the dropdown menu size */
+#dropdown {
+    height: 25px;
+    width: 200px;
+    margin: 10px;
+}
+
